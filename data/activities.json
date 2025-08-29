@@ -1,0 +1,153 @@
+[
+  {
+    "id": "math_001",
+    "type": "math",
+    "title": "Addition Practice",
+    "description": "Practice basic addition with single digits",
+    "level": "easy",
+    "skills": ["addition", "number_sense"],
+    "tags": ["elementary", "arithmetic"],
+    "estimated_min": 15,
+    "format": "qna",
+    "rubric": {
+      "accuracy": {"excellent": "90-100%", "good": "80-89%", "needs_work": "<80%"},
+      "speed": {"excellent": "<2 min", "good": "2-3 min", "needs_work": ">3 min"}
+    }
+  },
+  {
+    "id": "reading_001",
+    "type": "reading",
+    "title": "Story Comprehension",
+    "description": "Read a short story and answer comprehension questions",
+    "level": "medium",
+    "skills": ["reading_comprehension", "vocabulary"],
+    "tags": ["literacy", "comprehension"],
+    "estimated_min": 20,
+    "format": "qna",
+    "rubric": {
+      "comprehension": {"excellent": "8-10 correct", "good": "6-7 correct", "needs_work": "<6 correct"},
+      "vocabulary": {"excellent": "All words understood", "good": "Most words understood", "needs_work": "Many words unclear"}
+    }
+  },
+  {
+    "id": "creativity_001",
+    "type": "creativity",
+    "title": "Story Writing",
+    "description": "Write a creative story based on a picture prompt",
+    "level": "hard",
+    "skills": ["creative_writing", "imagination"],
+    "tags": ["writing", "creativity"],
+    "estimated_min": 30,
+    "format": "freeform",
+    "rubric": {
+      "creativity": {"excellent": "Highly original", "good": "Some originality", "needs_work": "Basic story"},
+      "structure": {"excellent": "Clear beginning/middle/end", "good": "Mostly structured", "needs_work": "Unclear structure"}
+    }
+  },
+  {
+    "id": "vocab_001",
+    "type": "vocab",
+    "title": "Word Matching",
+    "description": "Match words with their definitions",
+    "level": "easy",
+    "skills": ["vocabulary", "word_recognition"],
+    "tags": ["vocabulary", "matching"],
+    "estimated_min": 10,
+    "format": "qna",
+    "rubric": {
+      "accuracy": {"excellent": "9-10 correct", "good": "7-8 correct", "needs_work": "<7 correct"},
+      "speed": {"excellent": "<5 min", "good": "5-8 min", "needs_work": ">8 min"}
+    }
+  },
+  {
+    "id": "logic_001",
+    "type": "logic",
+    "title": "Pattern Recognition",
+    "description": "Identify the next item in a sequence",
+    "level": "medium",
+    "skills": ["pattern_recognition", "logical_thinking"],
+    "tags": ["logic", "patterns"],
+    "estimated_min": 15,
+    "format": "qna",
+    "rubric": {
+      "accuracy": {"excellent": "8-10 correct", "good": "6-7 correct", "needs_work": "<6 correct"},
+      "reasoning": {"excellent": "Clear explanation", "good": "Partial explanation", "needs_work": "No explanation"}
+    }
+  },
+  {
+    "id": "spelling_001",
+    "type": "spelling",
+    "title": "Spell the Animal",
+    "description": "Given a picture/description, spell the animal word",
+    "level": "easy",
+    "skills": ["spelling", "phonics"],
+    "tags": ["visual", "animals"],
+    "estimated_min": 8,
+    "format": "qna",
+    "rubric": {
+      "accuracy": {"excellent": "9-10 correct", "good": "7-8 correct", "needs_work": "<7 correct"},
+      "phonics": {"excellent": "Uses sound patterns", "good": "Some sound awareness", "needs_work": "Random guessing"}
+    }
+  },
+  {
+    "id": "storytelling_001",
+    "type": "storytelling",
+    "title": "Finish the Story",
+    "description": "Given an opening, write 3-5 sentences to continue the story",
+    "level": "medium",
+    "skills": ["storytelling", "creativity"],
+    "tags": ["writing", "narrative"],
+    "estimated_min": 12,
+    "format": "freeform",
+    "rubric": {
+      "creativity": {"excellent": "Original continuation", "good": "Logical continuation", "needs_work": "Basic continuation"},
+      "length": {"excellent": "5+ sentences", "good": "3-4 sentences", "needs_work": "<3 sentences"}
+    }
+  },
+  {
+    "id": "math_002",
+    "type": "math",
+    "title": "Subtraction Practice",
+    "description": "Practice basic subtraction with single digits",
+    "level": "easy",
+    "skills": ["subtraction", "number_sense"],
+    "tags": ["elementary", "arithmetic"],
+    "estimated_min": 15,
+    "format": "qna",
+    "rubric": {
+      "accuracy": {"excellent": "90-100%", "good": "80-89%", "needs_work": "<80%"},
+      "speed": {"excellent": "<2 min", "good": "2-3 min", "needs_work": ">3 min"}
+    }
+  },
+  {
+    "id": "reading_002",
+    "type": "reading",
+    "title": "Short Passage Analysis",
+    "description": "Read a short passage and identify main idea and details",
+    "level": "medium",
+    "skills": ["reading_comprehension", "analysis"],
+    "tags": ["literacy", "analysis"],
+    "estimated_min": 18,
+    "format": "qna",
+    "rubric": {
+      "main_idea": {"excellent": "Correctly identified", "good": "Partially correct", "needs_work": "Incorrect"},
+      "details": {"excellent": "3+ details found", "good": "1-2 details found", "needs_work": "No details found"}
+    }
+  },
+  {
+    "id": "vocab_002",
+    "type": "vocab",
+    "title": "Synonym Match",
+    "description": "Match words to their synonyms",
+    "level": "medium",
+    "skills": ["vocabulary", "language_awareness"],
+    "tags": ["vocabulary", "matching"],
+    "estimated_min": 12,
+    "format": "qna",
+    "rubric": {
+      "accuracy": {"excellent": "8-10 correct", "good": "6-7 correct", "needs_work": "<6 correct"},
+      "understanding": {"excellent": "Shows deep understanding", "good": "Basic understanding", "needs_work": "Limited understanding"}
+    }
+  }
+]
+  

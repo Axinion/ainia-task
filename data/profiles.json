@@ -1,0 +1,83 @@
+[
+  {
+    "id": "child_001",
+    "name": "Alice Smith",
+    "age": 8,
+    "grade": 3,
+    "interests": ["reading", "art", "science"],
+    "learning_style": "visual",
+    "attention_span_min": 20,
+    "reading_level": "on_grade",
+    "baseline_skills": {
+      "math": 0.75,
+      "reading": 0.85,
+      "writing": 0.60
+    },
+    "goals": ["Improve writing skills", "Learn multiplication"]
+  },
+  {
+    "id": "child_002",
+    "name": "Bob Johnson",
+    "age": "K",
+    "grade": "K",
+    "interests": ["building blocks", "music"],
+    "learning_style": "kinesthetic",
+    "attention_span_min": 15,
+    "reading_level": "pre_reader",
+    "baseline_skills": {
+      "social_skills": 0.80,
+      "motor_skills": 0.90,
+      "language": 0.70
+    },
+    "goals": ["Learn letter sounds", "Count to 20"]
+  },
+  {
+    "id": "child_003",
+    "name": "Charlie Brown",
+    "age": 7,
+    "grade": 2,
+    "interests": ["sports", "puzzles"],
+    "learning_style": "logical",
+    "attention_span_min": 18,
+    "reading_level": "emergent",
+    "baseline_skills": {
+      "math": 0.70,
+      "reading": 0.65,
+      "problem_solving": 0.80
+    },
+    "goals": ["Read chapter books", "Master addition facts"]
+  },
+  {
+    "id": "child_004",
+    "name": "Diana Prince",
+    "age": 9,
+    "grade": 4,
+    "interests": ["writing", "drama"],
+    "learning_style": "auditory",
+    "attention_span_min": 25,
+    "reading_level": "above_grade",
+    "baseline_skills": {
+      "reading": 0.95,
+      "writing": 0.85,
+      "creativity": 0.90
+    },
+    "goals": ["Write a short story", "Learn fractions"]
+  },
+  {
+    "id": "child_005",
+    "name": "Eve Wilson",
+    "age": 6,
+    "grade": 1,
+    "interests": ["animals", "nature"],
+    "learning_style": "visual",
+    "attention_span_min": 12,
+    "reading_level": "approaching",
+    "baseline_skills": {
+      "reading": 0.55,
+      "math": 0.60,
+      "science": 0.75
+    },
+    "goals": ["Read independently", "Learn subtraction"]
+  }
+]
+  
