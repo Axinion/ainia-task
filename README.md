@@ -54,6 +54,44 @@ Profiles Summary:
     auditory: 1
 ```
 
+## Phase 2: Recommendations
+
+### Run Activity Recommendations Demo
+
+```bash
+python -m ai_buddy.recommender
+```
+
+**What it prints:**
+- Top 3 personalized activity recommendations for a sample child
+- Detailed score component breakdowns for each recommendation
+- Shows how skill fit, interest fit, style fit, level fit, time fit, and recency penalty contribute to the final score
+
+**Example Output:**
+```
+Recommending activities for: Alice Smith (ID: child_001)
+Learning style: visual
+Reading level: on_grade
+Attention span: 20 minutes
+Interests: reading, art, science
+
+Top 3 Recommendations:
+============================================================
+
+1. Story Comprehension
+   Type: reading | Level: medium
+   Estimated time: 20 minutes
+   Skills: reading_comprehension, vocabulary
+   Total Score: 0.655
+   Component Scores:
+     skill_fit: 0.500 (weight: 0.35)
+     interest_fit: 1.000 (weight: 0.20)
+     style_fit: 0.500 (weight: 0.15)
+     level_fit: 0.700 (weight: 0.15)
+     time_fit: 1.000 (weight: 0.10)
+     recency_penalty: 0.000 (weight: 0.05)
+```
+
 ## Installation
 
 ```bash
