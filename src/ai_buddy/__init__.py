@@ -20,6 +20,20 @@ from .loader import (
     summarize_profiles
 )
 
+# Import policy functions
+from .policy import (
+    WEIGHTS,
+    skill_fit,
+    interest_fit,
+    style_fit,
+    level_fit,
+    time_fit,
+    recency_penalty,
+    total_score,
+    mean,
+    normalize_text
+)
+
 # TODO: Add more imports as modules are implemented
 # from .utils import *
 
@@ -33,4 +47,14 @@ __all__ = [
     "load_profiles",
     "summarize_activities",
     "summarize_profiles",
+    "WEIGHTS",
+    "skill_fit",
+    "interest_fit",
+    "style_fit",
+    "level_fit",
+    "time_fit",
+    "recency_penalty",
+    "total_score",
+    "mean",
+    "normalize_text",
 ]
