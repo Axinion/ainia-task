@@ -34,6 +34,20 @@ from .policy import (
     normalize_text
 )
 
+# Import session functions
+from .session import (
+    ActivityAttempt,
+    SessionLog,
+    recent_activity_ids,
+    append_attempt
+)
+
+# Import recommender functions
+from .recommender import (
+    recommend_activities,
+    explain_recommendation
+)
+
 # TODO: Add more imports as modules are implemented
 # from .utils import *
 
@@ -57,4 +71,10 @@ __all__ = [
     "total_score",
     "mean",
     "normalize_text",
+    "ActivityAttempt",
+    "SessionLog",
+    "recent_activity_ids",
+    "append_attempt",
+    "recommend_activities",
+    "explain_recommendation",
 ]
