@@ -48,6 +48,26 @@ from .recommender import (
     explain_recommendation
 )
 
+# Import evaluation functions
+from .evaluate import (
+    eval_qna,
+    eval_freeform,
+    choose_outcome_from_eval
+)
+
+# Import persistence functions
+from .persist import (
+    save_history,
+    load_history,
+    save_child_snapshot
+)
+
+# Import simulation functions
+from .simulate import answer
+
+# Import buddy functions
+from .buddy import run_session, run_session_once
+
 # TODO: Add more imports as modules are implemented
 # from .utils import *
 
@@ -77,4 +97,13 @@ __all__ = [
     "append_attempt",
     "recommend_activities",
     "explain_recommendation",
+    "eval_qna",
+    "eval_freeform",
+    "choose_outcome_from_eval",
+    "save_history",
+    "load_history",
+    "save_child_snapshot",
+    "answer",
+    "run_session",
+    "run_session_once",
 ]

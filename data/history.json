@@ -1,0 +1,119 @@
+[
+  {
+    "child_id": "child_001",
+    "attempts": [
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-29 17:22:39.327494",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "reading_001"
+        }
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-29 17:22:39.327526",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "spelling_001"
+        }
+      },
+      {
+        "activity_id": "reading_002",
+        "timestamp": "2025-08-29 17:22:39.327543",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "reading_002"
+        }
+      },
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-29 17:24:34.872645",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "reading_001"
+        }
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-29 17:24:34.872681",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "spelling_001"
+        }
+      },
+      {
+        "activity_id": "reading_002",
+        "timestamp": "2025-08-29 17:24:34.872705",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "reading_002"
+        }
+      },
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-29 17:31:33.143293",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "reading_001"
+        }
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-29 17:31:33.143315",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "spelling_001"
+        }
+      }
+    ]
+  }
+]

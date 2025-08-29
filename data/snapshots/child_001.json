@@ -1,0 +1,27 @@
+{
+  "id": "child_001",
+  "name": "Alice Smith",
+  "age": 8,
+  "grade": 3,
+  "interests": [
+    "reading",
+    "art",
+    "science"
+  ],
+  "learning_style": "visual",
+  "attention_span_min": 20,
+  "reading_level": "on_grade",
+  "baseline_skills": {
+    "math": 0.75,
+    "reading": 0.85,
+    "writing": 0.6,
+    "reading_comprehension": 0.49,
+    "vocabulary": 0.49,
+    "spelling": 0.49,
+    "phonics": 0.49
+  },
+  "goals": [
+    "Improve writing skills",
+    "Learn multiplication"
+  ]
+}

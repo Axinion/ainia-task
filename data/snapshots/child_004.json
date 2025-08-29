@@ -1,0 +1,25 @@
+{
+  "id": "child_004",
+  "name": "Diana Prince",
+  "age": 9,
+  "grade": 4,
+  "interests": [
+    "writing",
+    "drama"
+  ],
+  "learning_style": "auditory",
+  "attention_span_min": 25,
+  "reading_level": "above_grade",
+  "baseline_skills": {
+    "reading": 0.95,
+    "writing": 0.85,
+    "creativity": 0.91,
+    "storytelling": 0.51,
+    "creative_writing": 0.51,
+    "imagination": 0.51
+  },
+  "goals": [
+    "Write a short story",
+    "Learn fractions"
+  ]
+}

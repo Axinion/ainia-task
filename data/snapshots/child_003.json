@@ -1,0 +1,26 @@
+{
+  "id": "child_003",
+  "name": "Charlie Brown",
+  "age": 7,
+  "grade": 2,
+  "interests": [
+    "sports",
+    "puzzles"
+  ],
+  "learning_style": "logical",
+  "attention_span_min": 18,
+  "reading_level": "emergent",
+  "baseline_skills": {
+    "math": 0.7,
+    "reading": 0.65,
+    "problem_solving": 0.8,
+    "subtraction": 0.49,
+    "number_sense": 0.49,
+    "pattern_recognition": 0.49,
+    "logical_thinking": 0.49
+  },
+  "goals": [
+    "Read chapter books",
+    "Master addition facts"
+  ]
+}

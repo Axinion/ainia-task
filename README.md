@@ -92,6 +92,58 @@ Top 3 Recommendations:
      recency_penalty: 0.000 (weight: 0.05)
 ```
 
+## Phase 3: Buddy Session
+
+### Run Complete Educational Sessions
+
+**Simulated run (automated answers):**
+```bash
+python -m ai_buddy.buddy --child C001 --simulate
+```
+
+**Manual run (type your own answers):**
+```bash
+python -m ai_buddy.buddy --child C001
+```
+
+**What it does:**
+- Loads activities, profiles, and session history
+- Recommends 3 personalized activities for the child
+- For each activity:
+  - Presents the activity with friendly introduction
+  - Gets answer (simulated or manual input)
+  - Evaluates the response and provides feedback
+  - Updates child's skills based on performance
+  - Saves progress automatically
+
+**Console Output:**
+```
+Loading activities and profiles...
+👋 Hello Alice Smith! Let's have a great learning session!
+📚 Reading level: on_grade | 🎯 Learning style: visual
+
+🤔 Finding the perfect activities for you...
+✨ I found 3 great activities for you!
+
+--- Activity 1/3 ---
+Let's read together! Story Comprehension
+📝 Read a short story and answer comprehension questions
+⏱️  Estimated time: 20 minutes
+
+🤖 Simulated answer: comprehension
+
+💡 Don't worry, learning takes time!
+💭 Tip: Let's practice this skill more together.
+
+💾 Saving your progress...
+🎉 Session complete! You're doing great!
+📊 Your skills have been updated and saved.
+```
+
+**Saved Files:**
+- `data/history.json` - Complete session history with all attempts
+- `data/snapshots/C001.json` - Updated child profile with new skill levels
+
 ## Installation
 
 ```bash
