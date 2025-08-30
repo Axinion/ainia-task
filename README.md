@@ -215,6 +215,56 @@ make bundle
 - **If Streamlit can't find modules**: Run `python -m pip install -e .`
 - **If history is empty**: Click "Seed demo data" in the UI or run `make seed`
 
+## Onboarding (Option B)
+
+### First-Run Experience
+
+The AI Buddy app features a comprehensive onboarding experience for new users:
+
+**One-Scroll Landing Page:**
+- **Hero Section**: "Meet your child's new learning buddy—safe, kind, and actually fun"
+- **Child Selection**: Choose a child to preview with "Name (ID)" format
+- **Why Parents Trust Us**: Privacy-focused value propositions
+- **How It Works**: 3-step process explanation
+- **Privacy Choices**: Configurable data collection preferences
+- **Sample Report Preview**: Real report generation for selected child
+
+**Key Features:**
+- **Personalized Preview**: Select any child profile to see customized sample reports
+- **Privacy Controls**: Three configurable settings with sensible defaults
+- **Real Sample Data**: Uses actual report generation system for authentic previews
+- **Seamless Transition**: Selected child becomes default in main app
+
+### Accessing the Full App
+
+**From Onboarding:**
+- Click "Start in under a minute" to reveal the complete 3-tab interface
+- Your child selection and privacy choices are preserved
+
+**Re-opening Onboarding:**
+- **Method 1**: Clear Streamlit session state via Menu → Rerun
+- **Method 2**: Add `?onboard=1` query parameter to the URL
+  - Example: `http://localhost:8501/?onboard=1`
+
+### Privacy Management
+
+**Onboarding Privacy Settings:**
+- **Analytics**: Allow basic analytics (default: OFF)
+- **Save Progress**: Save progress for personalized picks (default: ON)
+- **Email Reports**: Email weekly reports (default: OFF)
+
+**Main App Integration:**
+- Privacy section in sidebar shows current choices
+- "Edit choices" button for inline editing
+- "Privacy Page" button for dedicated privacy settings page
+- All changes persist across sessions
+
+### Screenshot
+
+![Onboarding Experience](docs/onboarding-screenshot.png)
+
+*Screenshot placeholder: Shows the onboarding landing page with hero section, child selection, trust indicators, and sample report preview.*
+
 ## Installation
 
 ```bash
