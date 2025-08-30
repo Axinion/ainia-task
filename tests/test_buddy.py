@@ -253,16 +253,9 @@ class TestAdaptationDirection:
             }
         )
         
-        # Mock the evaluation to return struggle
-        with patch('ai_buddy.evaluate.eval_qna') as mock_eval_qna, \
-             patch('ai_buddy.evaluate.choose_outcome_from_eval') as mock_choose_outcome:
-            mock_eval_qna.return_value = {
-                "kind": "qna",
-                "correct": False,
-                "score": 0.0,
-                "reason": "Incorrect answer"
-            }
-            mock_choose_outcome.return_value = "struggle"
+        # Mock the answer function to return a wrong answer that will result in struggle
+        with patch('ai_buddy.buddy.answer') as mock_answer:
+            mock_answer.return_value = "wrong answer"
             
             # Run session with mocked evaluation
             updated_child, history_delta = run_session_once(

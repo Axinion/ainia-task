@@ -144,6 +144,77 @@ Let's read together! Story Comprehension
 - `data/history.json` - Complete session history with all attempts
 - `data/snapshots/C001.json` - Updated child profile with new skill levels
 
+## Phase 4: Parent Reports
+
+### Generate Parent Reports
+
+**Generate for one child (7 days):**
+```bash
+python -m ai_buddy.report --child C001 --period 7d --format md
+```
+
+**Generate for all children (Markdown + JSON):**
+```bash
+python -m ai_buddy.report --all --period 7d --format both
+```
+
+**What it does:**
+- Analyzes child's activity history over the specified period
+- Calculates skill performance metrics and identifies strengths/growth areas
+- Generates personalized activity recommendations
+- Provides actionable tips for home learning
+
+**Output Files:**
+- Writes to `./reports/{child_id}_YYYY-MM-DD.md` and `.json`
+- Creates reports directory automatically if it doesn't exist
+
+**Report Sections:**
+- **Highlights** - Sparks (strengths) and growth areas based on performance
+- **Activity Snapshot** - Performance breakdown by activity type and skill
+- **Recommended Next Activities** - Personalized suggestions for continued learning
+- **Try at Home** - Practical tips for parents to support learning at home
+
+**Example Output:**
+```
+Wrote:
+ - reports/C001_2024-01-15.md
+ - reports/C001_2024-01-15.json
+```
+
+## Phase 5: Demo & Submission
+
+### Quick Start
+
+**One command demo:**
+```bash
+make demo
+```
+
+**First-time setup (optional):**
+```bash
+make seed
+```
+
+**Generate reports for all:**
+```bash
+make report-all
+```
+
+**Run tests:**
+```bash
+make test
+```
+
+**Create a shareable bundle:**
+```bash
+make bundle
+```
+
+### Troubleshooting
+
+- **If Streamlit can't find modules**: Run `python -m pip install -e .`
+- **If history is empty**: Click "Seed demo data" in the UI or run `make seed`
+
 ## Installation
 
 ```bash
