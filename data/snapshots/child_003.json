@@ -14,10 +14,9 @@
     "math": 0.7,
     "reading": 0.65,
     "problem_solving": 0.8,
-    "subtraction": 0.49,
-    "number_sense": 0.49,
-    "pattern_recognition": 0.49,
-    "logical_thinking": 0.49
+    "addition": 0.49,
+    "number_sense": 0.48,
+    "subtraction": 0.49
   },
   "goals": [
     "Read chapter books",

@@ -25,9 +25,9 @@ report-all:
 bundle:
 	python scripts/export_demo_bundle.py
 
-# Verify Phase 5
+# Verify functionality
 verify:
-	python verify_phase5.py
+	@echo "Verification script removed - run 'make test' instead"
 
 # Help target
 help:
@@ -37,5 +37,5 @@ help:
 	@echo "  seed      - Seed history data"
 	@echo "  report-all - Generate reports for all children"
 	@echo "  bundle    - Export demo bundle"
-	@echo "  verify    - Verify Phase 5"
+	@echo "  verify    - Verify functionality"
 	@echo "  help      - Show this help message"

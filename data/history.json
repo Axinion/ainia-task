@@ -113,6 +113,423 @@
           },
           "activity": "spelling_001"
         }
+      },
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-30 11:36:21.304861",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "reading_001"
+        }
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 11:36:21.304895",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "spelling_001"
+        }
+      },
+      {
+        "activity_id": "reading_002",
+        "timestamp": "2025-08-30 11:36:21.304919",
+        "outcome": "struggle",
+        "details": {
+          "eval": {
+            "kind": "qna",
+            "correct": false,
+            "score": 0.0,
+            "reason": "No acceptable answers defined in rubric"
+          },
+          "activity": "reading_002"
+        }
+      }
+    ]
+  },
+  {
+    "child_id": "child_004",
+    "attempts": [
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 11:45:36.366462",
+        "outcome": "partial",
+        "details": {
+          "eval": {
+            "kind": "freeform",
+            "meets_min_length": true,
+            "keyword_hits": 0,
+            "score": 0.6,
+            "reason": "Meets minimum length requirement (5 sentences >= 3)"
+          },
+          "activity": "storytelling_001"
+        }
+      },
+      {
+        "activity_id": "creativity_001",
+        "timestamp": "2025-08-30 11:45:36.370683",
+        "outcome": "partial",
+        "details": {
+          "eval": {
+            "kind": "freeform",
+            "meets_min_length": true,
+            "keyword_hits": 0,
+            "score": 0.6,
+            "reason": "Meets minimum length requirement (3 sentences >= 3)"
+          },
+          "activity": "creativity_001"
+        }
+      }
+    ]
+  },
+  {
+    "child_id": "child_001",
+    "attempts": [
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-30 16:53:05.439432+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:05.439579+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_002",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:05.444894+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "vocab_001",
+        "timestamp": "2025-08-30 16:53:05.444928+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_003",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:05.445457+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "math_002",
+        "timestamp": "2025-08-30 16:53:05.445482+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_004",
+    "attempts": [
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:05.445777+00:00",
+        "outcome": "partial",
+        "details": {}
+      },
+      {
+        "activity_id": "creativity_001",
+        "timestamp": "2025-08-30 16:53:05.445801+00:00",
+        "outcome": "partial",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_005",
+    "attempts": [
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:05.448420+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:05.448439+00:00",
+        "outcome": "partial",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_001",
+    "attempts": [
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-30 16:53:17.189435+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:17.189576+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_002",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:17.190063+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "vocab_001",
+        "timestamp": "2025-08-30 16:53:17.190082+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_003",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:17.190369+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "math_002",
+        "timestamp": "2025-08-30 16:53:17.190386+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_004",
+    "attempts": [
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:17.191176+00:00",
+        "outcome": "partial",
+        "details": {}
+      },
+      {
+        "activity_id": "creativity_001",
+        "timestamp": "2025-08-30 16:53:17.191198+00:00",
+        "outcome": "partial",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_005",
+    "attempts": [
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:17.191437+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:17.191455+00:00",
+        "outcome": "partial",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_001",
+    "attempts": [
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-30 16:53:21.692590+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:21.692770+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_002",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:21.693355+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "vocab_001",
+        "timestamp": "2025-08-30 16:53:21.693378+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_003",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:21.693694+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "math_002",
+        "timestamp": "2025-08-30 16:53:21.693714+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_004",
+    "attempts": [
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:21.694196+00:00",
+        "outcome": "partial",
+        "details": {}
+      },
+      {
+        "activity_id": "creativity_001",
+        "timestamp": "2025-08-30 16:53:21.694231+00:00",
+        "outcome": "partial",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_005",
+    "attempts": [
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:21.694722+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:21.694746+00:00",
+        "outcome": "partial",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_001",
+    "attempts": [
+      {
+        "activity_id": "reading_001",
+        "timestamp": "2025-08-30 16:53:27.099909+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:27.100053+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_002",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:27.100617+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "vocab_001",
+        "timestamp": "2025-08-30 16:53:27.100638+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_003",
+    "attempts": [
+      {
+        "activity_id": "math_001",
+        "timestamp": "2025-08-30 16:53:27.100944+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "math_002",
+        "timestamp": "2025-08-30 16:53:27.100961+00:00",
+        "outcome": "struggle",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_004",
+    "attempts": [
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:27.101234+00:00",
+        "outcome": "partial",
+        "details": {}
+      },
+      {
+        "activity_id": "creativity_001",
+        "timestamp": "2025-08-30 16:53:27.101255+00:00",
+        "outcome": "partial",
+        "details": {}
+      }
+    ]
+  },
+  {
+    "child_id": "child_005",
+    "attempts": [
+      {
+        "activity_id": "spelling_001",
+        "timestamp": "2025-08-30 16:53:27.101511+00:00",
+        "outcome": "struggle",
+        "details": {}
+      },
+      {
+        "activity_id": "storytelling_001",
+        "timestamp": "2025-08-30 16:53:27.101531+00:00",
+        "outcome": "partial",
+        "details": {}
       }
     ]
   }

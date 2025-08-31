@@ -44,7 +44,7 @@ def recommend_activities(
     if history is None:
         history = []
     
-    # Step 1: Pre-filter (no-op for now, Phase 2 will add age/grade filtering)
+    # Step 1: Pre-filter (no-op for now, future enhancement will add age/grade filtering)
     filtered_activities = activities.copy()
     
     # Step 2: Score each activity

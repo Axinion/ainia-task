@@ -1,8 +1,8 @@
 """
 AI Buddy - Main session orchestrator.
 
-This module provides the main interface for running educational sessions
-with children, including activity recommendations, evaluation, and progress tracking.
+Handles running educational sessions with kids, including recommendations,
+evaluation, and progress tracking.
 """
 
 import argparse
@@ -57,7 +57,7 @@ def run_session_once(
     history: Optional[list] = None
 ) -> Tuple[ChildProfile, list]:
     """
-    Run a single activity session for testing purposes.
+    Run a single activity session for testing.
     
     Args:
         child_id: ID of the child to work with
